@@ -5,6 +5,7 @@ export const getJoin = (req, res) => {
 };
 
 export const postJoin = (req, res) => {
+  // == const name = req.body.name;와 같은 내용 -> ES6 비구조화 할당에 대해 더 찾아볼 것.
   const {
     body: { name, email, password, password2 },
   } = req;

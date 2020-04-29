@@ -11,6 +11,8 @@ import {
 
 const globalRouter = express.Router();
 
+//get과 post 구분하여 사용
+
 globalRouter.get(routes.join, getJoin);
 globalRouter.post(routes.join, postJoin);
 
