@@ -27,7 +27,7 @@ app.use("/static", express.static("static"));
 app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(morgan("dev"));
+app.use(morgan("common"));
 app.use(
   session({
     secret: process.env.COOKIE_SECRET,
