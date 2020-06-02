@@ -28,8 +28,8 @@ const GITHUB_CALLBACK = "/auth/github/callback";
 
 //Facebook
 
-const FACEBOOK = "/auth/facebook";
-const FB_CALLBACK = "/auth/facebook/callback";
+// const FACEBOOK = "/auth/facebook";
+// const FB_CALLBACK = "/auth/facebook/callback";
 
 //Kakao
 
